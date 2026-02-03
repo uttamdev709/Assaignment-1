@@ -1,0 +1,228 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    background-color: #ffffff;
+}
+nav{
+    max-width: 1600px;
+    width: 100%;  
+    margin: 0 auto;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0 auto; 
+}
+.menu a{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+.btn{
+    background-color:#30B868;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hero-section {
+    background:  url('./assets/hero-bg.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.early-access {
+    border: 1px solid;
+    
+    display: flex;
+    margin-right: 0px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    background: #FFFFFF ;
+    color: #469165;
+    width: 210px;
+    gap: 2px;
+    justify-content: center;
+    
+}
+
+.header-text {
+    font-size: 60px;
+    margin-bottom: 20px;
+   
+}
+
+.header-text-color {
+    color: #469165; 
+}
+
+
+.header-text-sm {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+
+.button-group a {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn-green {
+    background-color: #469165 ;
+    color: white;
+}
+
+.btn-green:hover {
+    background-color: #469165;
+}
+
+.btn-outline {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-outline:hover {
+    background-color: white;
+    color: black;
+}
+
+#notes {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#notes .section-heading h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #001931;
+}
+
+#notes .section-heading p {
+    font-size: 16px;
+    color: #627382;
+    max-width: 600px;
+    margin: 0 auto 50px;
+}
+.notes-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.note-card {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    flex: 1;
+    margin: 0 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.note-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.note-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.note-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+.note-card .icon {
+  background-color:#F95555;
+  border-radius: 50%;
+  padding: 10px;
+}
+.section-2br{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+
+.text-barr{
+    display: flex;
+    font-size: 20px;
+}
+.section-3br{
+    gap: 40px;
+}
+.section-4bar{
+    align-items: center;
+    text-align: center;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+
+}
+.footer-main{
+background-color: #001931;
+ padding: 120px 120px 30px 120px
+}
+.footer-section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+.image-size{
+    width: 25px;
+    align-items: center;
+}
+.text-footer{
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
